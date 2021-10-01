@@ -63,17 +63,17 @@
       We will create this list using ul tag itself. But we will create list
       which is inline using CSS
     </p>
-    <ul>
-      <li>Inline Item one</li>
-      <li>Inline item two</li>
-      <li>Inline item three</li>
+    <ul class="list-non-bullets">
+      <li class="list-item-inline">Inline Item one</li>
+      <li class="list-item-inline">Inline item two</li>
+      <li class="list-item-inline">Inline item three</li>
     </ul>
 
     <h3>Reverse ordered lists</h3>
     <p>Counting of list will go in reverse order. We will do it using CSS</p>
-    <ol>
-      <li>Ordered list Item one</li>
-      <li>Ordered list Item two</li>
+    <ol reversed>
+      <li >Ordered list Item one</li>
+      <li >Ordered list Item two</li>
       <li>Ordered list Item three</li>
     </ol>
 
@@ -85,24 +85,26 @@
       pages
     </p>
 
-    <nav>
-      <div>TheBrandName</div>
+    <nav class="navigation"> 
+      <div class="container-fluid">
+      <div class="nav-heading">TheBrandName</div>
       <ul>
         <li>
-          <a href="/">home</a>
+          <a class="active" href="/">home</a>
         </li>
         <li>
-          <a href="/">products</a>
+          <a  href="/">products</a>
         </li>
         <li>
           <a href="/">about</a>
         </li>
       </ul>
+    </div>
     </nav>
 
     <hr />
     <h2>@header</h2>
-    <header>
+    <header class="container main-text">
       <img src="images/programmer_logo.svg" />
       <h1>This is heading h1 inside header</h1>
     </header>
