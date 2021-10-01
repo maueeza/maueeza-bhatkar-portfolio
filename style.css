@@ -7,8 +7,8 @@ body{
 
 :root{
     --primary--color: #1AB0A6;
-    --off-white-color:#e3e0e7;
-    --reddish:#c48484;
+    --off-white-color:#ebe6f3;
+    --reddish:#350707;
 }
 
 .container{
@@ -108,3 +108,41 @@ hr{
     margin: auto;
     display: block;
 }
+
+.section{
+    display: block;
+    padding: 2rem;
+}
+
+.section h2{
+    text-align: center;
+}
+
+.section-ow{
+    background-color: var(--off-white-color);
+}
+
+.footer{
+    display: block;
+    background-color: var(--primary--color);
+    padding: 1rem 0rem;
+    border-top-right-radius: 2rem;
+    text-align: center;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer li{
+    display: inline-block;
+    padding: 0rem 2rem;
+    color: white;
+}
+
+.footer .heading{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+
