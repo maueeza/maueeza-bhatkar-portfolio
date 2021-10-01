@@ -7,8 +7,8 @@ body{
 
 :root{
     --primary--color: #1AB0A6;
-    --off-white-color:#ebe6f3;
-    --reddish:#350707;
+    --off-white-color:#dedce2;
+    --grey:#575555;
 }
 
 .container{
@@ -100,18 +100,21 @@ hr{
 
 .main-text{
     display: block;
-    color: var(--reddish) ;
+    color: var(--grey) ;
+    max-width: 800px;
 }
 
 .main-text img{
-    width: 400px;
+    width: 500px;
     margin: auto;
     display: block;
+    padding: 2rem 0rem;
 }
 
 .section{
     display: block;
     padding: 2rem;
+    text-align: center;
 }
 
 .section h2{
@@ -120,6 +123,7 @@ hr{
 
 .section-ow{
     background-color: var(--off-white-color);
+    border-radius: 2rem;
 }
 
 .footer{
@@ -145,4 +149,16 @@ hr{
     font-size: larger;
     color: white;
 }
+
+.text-color{
+    color:var(--primary--color)
+}
+
+/*.section p{
+    text-align: center;
+}
+
+.section a{
+    text-align: center;
+}*/
 
